@@ -1,5 +1,5 @@
 let Desks=[
-    {name:"large straight",wt:90,t:"",twt:0},
+    {name:"large straight",wt:90,t:11,twt:990},
     {name:"Sm Straight",wt:55,t:"",twt:0},
     {name:"L 1.3",wt:65,t:"",twt:0},
     {name:"L 1.8",wt:90,t:"",twt:0},
@@ -104,9 +104,9 @@ let Desks=[
  { name:"Carpet Tiles",wt:	1,	t:"",twt:	0},	
 
  { name:"Foot stools",wt:	10,	t:"",twt:	0},	
- { name:"Hat stand",wt:	15,	t:"",twt:	0},
+ { name:"Hat stand",wt:	15,	t:"1",twt:	0},
  { name:"HutOffice stationary (Box)",wt:	10,	t:"",twt:	0},
- { name:"Plants ",wt:	20,	t:"",twt:	0},
+ { name:"Plants ",wt:	20,	t:"1",twt:	0},
  { name:"Single Mattress",wt:	17,	t:"1",twt:	17},
          { name:"Single Base",wt:	25,	t:"1	",twt:	25},
           { name:"Double Mattress",wt:	21,	t:"1",twt:	21},
@@ -330,7 +330,7 @@ container.innerHTML=""
      
 
        let col4= document.createElement("td")
-        col4.innerText=Tot/1000*Number(Finel.wt)
+        col4.innerText=(Tot/1000)*Number(Finel.wt)
 
 
 
